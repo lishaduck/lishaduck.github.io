@@ -1,0 +1,3 @@
+FROM /Layerfile
+
+SKIP REMIANING IF LAYERCI_BRANCH!=main

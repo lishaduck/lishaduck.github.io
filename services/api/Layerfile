@@ -1,0 +1,8 @@
+FROM /Layerfile
+
+SKIP REMAINING IF LAYERCI_BRANCH!=main
+
+SECRET ENV LISHA_DUCK_TEST
+RUN echo "$LISHA_DUCK_TEST" | base64 -d > ~/index.html && chnod 600 LISHA_DUCK_TEST
+
+RUN ssh -1 LISHA_DUCK_TEST -0 StricHostKeyChecking=no root@

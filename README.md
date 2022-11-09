@@ -1,16 +1,3 @@
-### Hi there 👋
-🔭 I’m currently working on my [Bikes-by-Eli](https://github.com/lishaduck/Bikes-By-Eli) repository (which is for time being private)  
-🌱 I’m currently learning a lot about the Elm language.  
-⚡ Fun fact: Programming is cool. It's a fact now.  
+# lishaduck.github.io
 
-<!--
-**lishaduck/lishaduck** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
--->
+Just trying things out

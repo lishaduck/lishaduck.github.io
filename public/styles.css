@@ -22,3 +22,23 @@ h1 {
 h4 {
     color: purple;
 }
+a {
+    text-decoration: none;
+    display: inlineBlock;
+    color: white;
+    margin-bottom: zero;
+    background-color: #76a5af;
+    border: zero;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0.625em 2em;
+    
+    border-radius: 0.2em;
+}
+a::hover {
+    background-color: #76a5af;
+    -webkit-backdrop-filter: blur(0.625em);
+    backdrop-filter: blur(0.625em);
+    
+}
+Footer

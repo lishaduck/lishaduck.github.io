@@ -4,4 +4,4 @@ SKIP REMAINING IF LAYERCI_BRANCH!=main
 
 SECRET ENV lishaduck_test
 
-RUN echo "$lishaduck_test" | base64 -d > ~/public/index.html && chnod 600 lishaduck_test
+RUN echo "$lishaduck_test"

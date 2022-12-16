@@ -2,5 +2,6 @@ FROM /Layerfile
 
 SKIP REMAINING IF LAYERCI_BRANCH!=main
 
-SECRET ENV LISHA_DUCK_TEST
-RUN echo "$LISHA_DUCK_TEST" | base64 -d > ~/public/index.html && chnod 600 LISHA_DUCK_TEST
+SECRET ENV lishaduck_test
+
+RUN echo "$lishaduck_test" | base64 -d > ~/public/index.html && chnod 600 LISHA_DUCK_TEST
